@@ -1,0 +1,11 @@
+li {
+    list-style-type: none;
+}
+.filterContainer {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.optionsContainer{
+    height: 200px;
+    overflow: auto;
+}

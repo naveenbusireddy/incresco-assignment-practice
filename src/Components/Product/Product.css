@@ -1,0 +1,54 @@
+.product {
+    box-shadow: 1px 2px 5px grey;
+    width: 200px;
+    position: relative;
+    
+}
+
+img{
+    width: 200px; 
+}
+.img{
+    position: relative; 
+}
+.img~div {
+    padding: 4px;
+}
+
+.img-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+.li-product {
+    text-align: left;
+    font-weight: bold;
+}
+.li-productName {
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+.li-price {
+    text-align: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.li-discount {
+    text-align: left;
+    color: rgb(231, 86, 86);
+}
+
+
+.li-mrp {
+    text-decoration: line-through;
+    margin-right: 5px;
+
+}
+
+.rating-display {
+    padding: 8px 8px 8px 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #535766;
+}

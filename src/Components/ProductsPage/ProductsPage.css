@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'filter searchSort searchSort searchSort searchSort searchSort'
+      'filter products products products products products'
+      'filter products products products products products'
+      'filter products products products products products';
+
+    gap: 15px 10px;
+    background-color: #ccfaf4ad;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  
+  .searchSort {
+      grid-area: searchSort; 
+      text-align: left;
+      
+      height: 30px;
+  }
+  .filters {
+      grid-area: filter; 
+      display: grid;
+      border-style: none;
+      /* grid-template-rows: auto auto auto;
+      height: 600px;
+      text-align: left;
+      align-content: space-evenly; */
+      /* border-style: solid; */
+  }
+  .products { 
+      grid-area: products;
+      grid-template-columns: auto auto auto auto auto;
+      display: grid; 
+      height: 600px;
+      text-align: center;
+      align-content: space-evenly;
+      column-gap: 10px;
+      row-gap: 10px;
+      border: 1rem, solid;
+      /* border-style: solid;     */
+      
+  }
